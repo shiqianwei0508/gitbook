@@ -7,17 +7,17 @@ ARG VERSION=3.2.2
 LABEL version=$VERSION
 
 RUN npm install --global gitbook-cli &&\
-	npm install gitbook-plugin-back-to-top-button &&\
-	npm install gitbook-plugin-chapter-fold &&\
-	npm install gitbook-plugin-code &&\
-	npm install gitbook-plugin-splitter &&\
-	npm install gitbook-plugin-search-pro &&\
-	npm install gitbook-plugin-insert-logo &&\
-	npm install gitbook-plugin-custom-favicon &&\
-	npm install gitbook-plugin-pageview-count &&\
-	npm install gitbook-plugin-tbfed-pagefooter &&\
-	npm install gitbook-plugin-popup &&\
-	npm install gitbook-plugin-sharing-plus &&\
+	npm install --global gitbook-plugin-back-to-top-button &&\
+	npm install --global gitbook-plugin-chapter-fold &&\
+	npm install --global gitbook-plugin-code &&\
+	npm install --global gitbook-plugin-splitter &&\
+	npm install --global gitbook-plugin-search-pro &&\
+	npm install --global gitbook-plugin-insert-logo &&\
+	npm install --global gitbook-plugin-custom-favicon &&\
+	npm install --global gitbook-plugin-pageview-count &&\
+	npm install --global gitbook-plugin-tbfed-pagefooter &&\
+	npm install --global gitbook-plugin-popup &&\
+	npm install --global gitbook-plugin-sharing-plus &&\
 	gitbook fetch ${VERSION} &&\
 	npm cache clear &&\
 	rm -rf /tmp/*
