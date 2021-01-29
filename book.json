@@ -24,7 +24,8 @@
 	"livereload",
 	"highlight",
 	"fontsettings",
-	"theme-default"
+	"theme-default",
+	"favicon"
     ],
     "pluginsConfig": {
         "insert-logo": {
