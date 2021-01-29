@@ -3,7 +3,7 @@
 Run container:
 
 ```
-$ docker run -p 80:4000 -v /srv/gitbook fellah/gitbook
+$ docker run -p 80:4000 -v /srv/gitbook sqwei/gitbook
 ```
 
 `4000` – GitBook default service port.
