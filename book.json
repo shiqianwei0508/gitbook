@@ -1,6 +1,8 @@
 {
     "plugins": [
 	"hide-element",
+	"theme-gestalt",
+	"styles-sass-fix",
         "back-to-top-button",
         "chapter-fold",
 	"expandable-chapters",
