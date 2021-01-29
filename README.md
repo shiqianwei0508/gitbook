@@ -16,7 +16,7 @@ $ docker run -p 80:4000 -v /srv/gitbook sqwei/gitbook
 ## Build Static Website
 
 ```
-$ docker run -v /srv/gitbook -v /srv/html fellah/gitbook gitbook build . /srv/html
+$ docker run -v /srv/gitbook -v /srv/html sqwei/gitbook gitbook build . /srv/html
 ```
 
 ## Links
