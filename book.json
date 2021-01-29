@@ -1,5 +1,6 @@
 {
     "plugins": [
+	"hide-element",
         "back-to-top-button",
         "chapter-fold",
         "code",
@@ -21,23 +22,23 @@
     ],
     "pluginsConfig": {
         "insert-logo": {
-            "url": "https://file.smallzhiyun.com/%E4%B9%A6.png",
+            "url": "https://www.freedoonline.com/favicon.ico",
             "style": "background: none; max-height: 30px; min-height: 30px"
         },
         "favicon": "./icon/book.ico",
         "tbfed-pagefooter": {
-            "copyright": "Copyright &copy dsx2016.com 2019",
+            "copyright": "Copyright &copy freedo 2021",
             "modify_label": "该文章修订时间：",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
         "sharing": {
             "douban": true,
-            "facebook": true,
-            "google": true,
-            "pocket": true,
+            "facebook": false,
+            "google": false,
+            "pocket": false,
             "qq": true,
-            "qzone": true,
-            "twitter": true,
+            "qzone": false,
+            "twitter": false,
             "weibo": true,
             "all": [
                 "douban",
